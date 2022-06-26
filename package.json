@@ -1,0 +1,33 @@
+{
+  "name": "lambda-search",
+  "version": "0.1.0",
+  "description": "Fuzzy searches as serverless lambdas",
+  "main": "handler.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Euthor/lambda-search.git"
+  },
+  "keywords": [
+    "fuzzy",
+    "search",
+    "lambda",
+    "serverless",
+    "matchmaker",
+    "euthor"
+  ],
+  "author": "@Euthor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Euthor/lambda-search/issues"
+  },
+  "homepage": "https://github.com/Euthor/lambda-search#readme",
+  "dependencies": {
+    "fuzzball": "^2.1.2"
+  }
+}

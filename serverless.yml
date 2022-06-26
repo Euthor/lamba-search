@@ -1,0 +1,13 @@
+org: nicholaswmin
+app: lambda-search
+service: aws-node # NOTE: update this with your service name
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  search:
+    handler: handler.search
