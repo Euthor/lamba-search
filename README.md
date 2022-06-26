@@ -1,5 +1,5 @@
 # lambda-search
-Fuzzy searches as serverless lambdas
+[Levenshtein distance][leven-dist] fuzzy searches as serverless lambdas
 
 ## Scripts
 
@@ -25,6 +25,7 @@ $ serverless invoke local --function search --data "John Doe"
 
 # Authors
 
-- [@nicholaswmin][1]
+- [@nicholaswmin][nicholaswmin]
 
-[1]: https://github.com/nicholaswmin
+[leven-dist]: https://en.wikipedia.org/wiki/Levenshtein_distance
+[nicholaswmin]: https://github.com/nicholaswmin
