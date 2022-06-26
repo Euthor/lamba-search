@@ -1,2 +1,2 @@
-# lamba-search
+# lambda-search
 Fuzzy searches as serverless lambdas
