@@ -20,7 +20,6 @@ $ serverless invoke --function search --data "John Doe"
 For invoking searches locally
 
 ```bash
-# Fuzzy search through lib/list.json for "John Doe"
 $ serverless invoke local --function search --data "John Doe"
 ```
 
